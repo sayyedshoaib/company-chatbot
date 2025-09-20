@@ -1,7 +1,12 @@
 langchain
 langchain_community
 langchain_google_genai
+langchain-core
 google-cloud-aiplatform[adk]
 python-dotenv
 mcp[cli]
 google-adk
+pypdf
+pypdf2
+faiss-cpu
+google.generativeai

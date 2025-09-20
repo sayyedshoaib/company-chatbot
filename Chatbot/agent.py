@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from google import genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+from Chatbot.vectorstore import vectorStore
 
 os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
 os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
